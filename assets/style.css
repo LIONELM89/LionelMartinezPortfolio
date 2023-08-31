@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: rgb(58, 58, 67);
+    color: white;
+    font-size: 3vh;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(58, 58, 67);
+    height: 80px;
+    
+    padding: 0 20px 0 0;
+}
+
+header h1 {
+    font-size: 7vh;
+    padding-left: 2%;
+    padding-right: 8px;
+    font-weight: 900;
+    font-family: sans-serif;
+    background-color: rgba(13, 126, 161, 0.384);
+}
+    
+
+header nav {
+    display: flex;
+}
+
+header nav a {
+    font-size: 3vh;
+    font-weight: 600;
+    min-width: auto;
+    margin-left: 10px;
+    color: rgba(13, 127, 161, 0.836);
+}
+
+header nav a:hover {
+    color: rgb(242, 242, 245);
+}
+
+.box {
+    background-image: url("./IMG_0976.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 1px solid black;
+    height: 70vh;
+    min-width: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.box h2 {
+    margin: 20px;
+    background-color: rgba(13, 127, 161, 0.836);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.4;
+    max-width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+}
+
+.box1 {
+    justify-content: center;
+    display: flex;
+    padding: 15px;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+
+}
+
+.div2 {
+    font-size: 4vh;
+    font-family: sans-serif;
+    
+}
+
+section h3 {
+    flex: 0 0 20%;
+    border-right: 3px solid gray;
+    font-size: 5vh;
+    width: auto;
+}
+
+section div {
+    flex: 0 0 77%;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.item {
+    border: 5px solid rgba(13, 127, 161, 0.836);
+    min-height: 200px;
+    max-height: 200px;
+    flex-basis: calc(50% - 1em);
+    margin: 6px;
+    border-style: solid;
+    border-radius: 5px;
+    
+}
+
+.first {
+    min-height: 400px;
+    flex-basis: 100%;
+}
+
+.item div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    position: absolute;
+    background-color: rgba(13, 126, 161, 0.384);
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 3px;
+    font-family: sans-serif;
+    font-weight: 900;
+    border-radius: 1px;
+}
+
+.first div {
+    margin-top: 37vh;
+    padding-top: 4px
+}
+.container a{
+    text-decoration: none;
+    color: white;
+}
+.container .first {
+    background-image: url("./01-html-css-git-homework-demo.png");
+    background-size: cover;
+}
+
+.container .first:hover {
+    opacity: .8;
+}
+
+.container .second {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRo-bghKC8Pi_Bg1JmT_Vabj7XfVz2a2cBS9A&usqp=CAU);
+}
+
+.container .second:hover {
+    opacity: .8;
+}
+
+.container .third {
+    background-image: url(https://static.saltinourhair.com/wp-content/uploads/2019/03/23140923/cairo-pyramids-giza.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.container .third:hover {
+    opacity: .8;
+}
+
+.container .fourth {
+    background-image: url(https://imageio.forbes.com/specials-images/imageserve/61a11bdb7afd3d7797865eb5/8-Giraffes-Credit-Micato-Safaris/960x0.jpg?format=jpg&width=960);
+}
+
+.container .fourth:hover {
+    opacity: .8;
+}
+
+.container .fifth {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNgsaLsBrxDsLOFVYosrf3KD3wuKT7BRQwuA&usqp=CAU);
+    background-position: center;
+    background-size: cover;
+}
+
+.container .fifth:hover {
+    opacity: .8;
+}
+
+.box1 nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 3%;
+    justify-content: space-between;
+    font-size: 3vh;
+    font-family: sans-serif;
+   
+}
+.box1 nav a {
+    text-decoration: none;
+    color: white;
+}
+section nav a:hover {
+    color: red;
+}
